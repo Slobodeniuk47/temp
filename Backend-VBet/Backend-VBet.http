@@ -1,0 +1,6 @@
+@Backend_VBet_HostAddress = http://localhost:5143
+
+GET {{Backend_VBet_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
