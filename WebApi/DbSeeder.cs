@@ -42,8 +42,8 @@ namespace WebApi
                         PhoneNumber = "+380 77 777 77 77"
                     };
                     var result = userManager.CreateAsync(user, "123456").Result;
-                    var role = Roles.Admin.FirstOrDefault();
-                    result = userManager.AddToRoleAsync(user, Roles.Admin).Result;
+                    //var role = Roles.Admin;
+                    //result = userManager.AddToRoleAsync(user, Roles.Admin).Result;
                 }
             }
         }
